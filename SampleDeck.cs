@@ -124,7 +124,7 @@ namespace CardDeck
 
         public void Print()
         {
-            System.Console.WriteLine("Card: "+CARD_FACE+" of "+CARD_SUIT);
+            System.Console.WriteLine($"Card: {CARD_FACE} of {CARD_SUIT}");
         }
     }
 }
